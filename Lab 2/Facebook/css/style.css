@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+
 }
 #first-block{
     background-color: #f0f2f5;
@@ -7,7 +7,6 @@ body{
     padding-bottom: 165px;
     position: relative;
     top: -7px;
-    border: 1px solid;
 }
 #facebook-photo{
     height: 106px;
@@ -146,8 +145,6 @@ body{
     top: 370px;
     width: 980px;
     margin: 0 auto;
-    border: 2px solid;
-
 }
 .footer a{
     font-size: 12px;
