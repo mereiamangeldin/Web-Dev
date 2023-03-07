@@ -57,19 +57,20 @@ main{
 
 .task-list{
     display: flex;
-    flex-direction: column;
-    width: 40%;
+    flex-wrap: wrap;
+    width: 900px;
 }
 .task-list-style{
-    border: 1px solid gray;
     border-bottom: none;
 }
 .task{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid gray;
+    border: 1px solid gray;
+    margin-right: 50px;
     padding: 10px 4px;
+    margin-bottom: 7px;
 
 }
 .text{
@@ -79,7 +80,7 @@ main{
     margin-left: 14%;
 }
 .delete{
-    margin-left: 380px;
+    margin-left: 170px;
 }
 .lineThrough{
     text-decoration: line-through;

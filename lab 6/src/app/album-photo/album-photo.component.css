@@ -1,0 +1,23 @@
+.button{
+  margin: 5px;
+  padding: 1px 10px;
+}
+
+.photo{
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  width: 600px;
+  justify-content: space-between;
+  margin: 5px auto;
+}
+.photo p{
+  margin: 0 auto;
+
+}
+
+.photos{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}

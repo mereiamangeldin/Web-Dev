@@ -1,0 +1,17 @@
+<div *ngIf="loaded" class="item-detail">
+  <a routerLink="/albums"><button class="back button">Return back</button></a>
+  <p class="title">{{item.title}}</p>
+  <button *ngIf="!edit" (click)="edit = true" class="button">Edit</button>
+  <form *ngIf="edit" (ngSubmit)="Save()">
+    <input type="text" placeholder="new title" [(ngModel)]="title" name="title">
+    <input type="submit" value="Save" class="button">
+  </form>
+  <a routerLink="/albums"><button (click)="Delete()" class="button">Delete</button></a>
+  <a routerLink="/albums/{{item.id}}/photos" class="photos">Photos</a>
+</div>
+
+<div *ngIf="!loaded">
+  Item is loading...
+</div>
+
+

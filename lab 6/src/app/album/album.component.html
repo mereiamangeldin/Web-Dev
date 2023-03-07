@@ -1,0 +1,18 @@
+<h2 (click)="create=true" class="button">Create</h2>
+<div *ngIf="create" class="create">
+  <form (ngSubmit)="Create()">
+    <h2 class="name">Enter a title</h2>
+    <input type="text" [(ngModel)]="title" name="title" class="input">
+    <input type="submit" value="create" class="submit">
+  </form>
+</div>
+<div *ngIf="!create">
+  <ul class="items">
+    <li *ngFor="let item of items" class="item">
+      <a routerLink="/albums/{{item.id}}">
+        {{item.title}}
+      </a>
+    </li>
+  </ul>
+</div>
+

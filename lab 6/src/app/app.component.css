@@ -1,0 +1,24 @@
+
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 22px 0;
+  background-color: gray;
+}
+
+.menu-item{
+  list-style: none;
+}
+
+.menu-item a{
+  color: azure;
+  font-size: 25px;
+}
+.menu-item a:hover{
+  color: blanchedalmond;
+}
+a{
+  text-decoration: none;
+}
+
