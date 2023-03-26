@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
+import {HttpClient, HttpErrorResponse, HttpResponse} from "@angular/common/http";
+import {catchError, Observable, of} from "rxjs";
 import {Item, ItemPhoto} from "./models";
+import {error} from "@angular/compiler-cli/src/transformers/util";
 
 @Injectable({
   providedIn: 'root'
@@ -18,4 +19,5 @@ export class AlbumsService {
   getAlbumPhotos(id: number): Observable<ItemPhoto[]>{
     return this.client.get<ItemPhoto[]>(`https://jsonplaceholder.typicode.com/albums/${id}/photos`);
   }
+
 }

@@ -14,13 +14,15 @@ export class AlbumDetailComponent implements OnInit, OnDestroy{
   loaded: boolean;
   edit: boolean;
   title: string;
+  found: boolean;
 
   constructor(private route: ActivatedRoute,
-              private albumService: AlbumsService,
+              private albumsService: AlbumsService,
               private DB: DBService) {
     this.item = {} as Item;
     this.loaded = true;
     this.edit = false;
+    this.found = true;
     this.title = "";
   }
   ngOnInit() {
@@ -29,11 +31,16 @@ export class AlbumDetailComponent implements OnInit, OnDestroy{
       if(_id){
         let id = +_id;
         this.loaded = false;
-        let temp = this.DB.getAlbum(id);
-        if(temp){
-          this.item = temp;
+        this.albumsService.getAlbum(id).subscribe((item)=>{
+          this.item = item;
           this.loaded = true;
-        }
+        })
+        // let temp = this.DB.getAlbum(id);
+        // alert(id)
+        // if(temp){
+        //   this.item = temp;
+        //   this.loaded = true;
+        // }
         // this.albumService.getAlbum(id).subscribe((item)=>{
         //   this.item = item;
         //   this.loaded = true;

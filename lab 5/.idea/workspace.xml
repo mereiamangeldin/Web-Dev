@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887fa9ba-ab70-409b-85dd-4fbd1238c3d9" name="Changes" comment="lab 5">
+      <change beforePath="$PROJECT_DIR$/../lab 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/app/album-detail/album-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/app/album-detail/album-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/app/album-detail/album-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/app/album-detail/album-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/app/album/album.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/app/album/album.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/app/albums.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/app/albums.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/src/app/db.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/src/app/db.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 6/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 6/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Merei/Desktop/merei codes/web development/Web-Dev/lab 5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Merei\\Desktop\\merei codes\\web development\\Web-Dev\\lab 5\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Merei/Desktop/merei codes/web development/Web-Dev/lab 5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Merei\\Desktop\\merei codes\\web development\\Web-Dev\\lab 5\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
@@ -74,6 +81,9 @@
       <workItem from="1677555909948" duration="18395000" />
       <workItem from="1677576267114" duration="176000" />
       <workItem from="1677576658431" duration="81000" />
+      <workItem from="1678333942818" duration="739000" />
+      <workItem from="1678673183386" duration="1305000" />
+      <workItem from="1678675102816" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="lab 5">
       <created>1676917288945</created>

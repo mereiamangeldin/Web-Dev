@@ -16,6 +16,7 @@ export class DBService{
     return this.albums;
   }
   getAlbum(id:number):Item | undefined{
+    alert(this.albums.length)
     let i = this.albums.findIndex(x =>x.id === id);
     if(i != -1){
       return this.albums[i];

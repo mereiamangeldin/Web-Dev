@@ -2,7 +2,7 @@
 <div *ngIf="create" class="create">
   <form (ngSubmit)="Create()">
     <h2 class="name">Enter a title</h2>
-    <input type="text" [(ngModel)]="title" name="title" class="input">
+    <input type="text" autocomplete="off" [(ngModel)]="title"  name="title" class="input">
     <input type="submit" value="create" class="submit">
   </form>
 </div>
